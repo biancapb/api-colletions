@@ -1,6 +1,7 @@
 package one.digitalinnovation.collections
 
 fun main(){
+    //precisa pré-definir a posição dos itens ao declarar o Array
     val values = IntArray(5)
 
     values[0] = 1
