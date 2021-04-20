@@ -9,8 +9,8 @@ fun main() {
     }
 
     //comandos para pegar maior, menor e a média dos números
-    println("Maior salário: ${salarios.max()}")
-    println("Menor salário: ${salarios.min()}")
+    println("Maior salário: ${salarios.maxOrNull()}")
+    println("Menor salário: ${salarios.minOrNull()}")
     println("Média salário: ${salarios.average()}")
 
     //comando para filtrar
